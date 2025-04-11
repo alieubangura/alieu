@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(blue,white);
+}
+
+.wrapper{
+    width: 420px;
+    padding:10px;
+    background-image: linear-gradient(rgb(57, 57, 244),rgb(218, 207, 245));
+    color: white;
+    border:gray solid 1px;
+    border-radius: 10px ;
+    box-shadow: 5px 15px 5px 5px var(--secondary);
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    height: 100%;
+    width: 100%;
+    background:transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,225,.2);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color:#fff ;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 50px;
+    border:none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    cursor:pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.wrapper .signup link{
+    display: flex;
+    font-size: 14.5;
+    text-align: center;
+    margin-top: 30px; 
+    justify-content: space-between;
+    margin: -15 0 15;
+}
+
+.signup link label a{
+    color: #fff;
+}
